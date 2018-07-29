@@ -1,5 +1,5 @@
 import {connect, showScreen} from './app'
 import { getStore } from './store';
-import BottomBox from './components/Box/Bottom'
+import Box from './components/Box'
 
-export {connect, showScreen, getStore, BottomBox}
+export {connect, showScreen, getStore, Box}
