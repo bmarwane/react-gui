@@ -1,0 +1,20 @@
+.box {
+    background: white;
+    padding: 3px;
+    font-family: "Roboto";
+    border-top: 2px solid gray;
+    margin: auto;
+    font-size: 8px;
+
+}
+
+.boxBody {
+    overflow-y: hidden;
+    margin-bottom: 5px;
+}
+
+.boxFooter button {
+    float: right;
+    box-sizing: border-box;
+}
+
