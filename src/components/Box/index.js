@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Box.css'
 import { connect } from 'react-redux'
 
-export function Box({ children, gameWidth, gameHeight, boxHeight }) {
+export function Box({ children, gameWidth, gameHeight, boxHeight, fontSize }) {
   var paddingAndBordersExtraSpace = 6;
   const outerBlock = {
     width: gameWidth + 'px',
@@ -11,7 +11,8 @@ export function Box({ children, gameWidth, gameHeight, boxHeight }) {
 
   const innerBlock = {
     width: (gameWidth * 1) - paddingAndBordersExtraSpace + 'px',
-    height: boxHeight ? boxHeight : 'inherited'
+    height: boxHeight ? boxHeight : 'inherited',
+    fontSize: fontSize ? fontSize : '8px'
   }
 
   const bodyDimension = {
